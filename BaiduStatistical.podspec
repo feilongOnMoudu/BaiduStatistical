@@ -24,9 +24,9 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/feilongOnMoudu/BaiduStatistical.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/feilongOnMoudu/BaiduStatistical.git", :tag => "#{s.version}" }
 
-  s.source_files  = "BaiduStatistical/Classes/*"
+  s.source_files  = "Classes/*"
 
   # s.public_header_files = "Classes/**/*.h"
 
